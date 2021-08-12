@@ -17,9 +17,9 @@ public class loginTest extends TestBase {
  {
 	LoginPage loginAdmin =new LoginPage(driver);
 	driver.navigate().refresh();
-	loginAdmin.sendEmail("");
-    loginAdmin.sendPassword("");
-    loginAdmin.clicklogin();
+//	loginAdmin.sendEmail("");
+   // loginAdmin.sendPassword("");
+    //loginAdmin.clicklogin();
 		
 		
 	}
