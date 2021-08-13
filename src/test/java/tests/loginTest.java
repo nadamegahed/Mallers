@@ -1,6 +1,8 @@
 package tests;
 
 import org.openqa.selenium.support.ui.WebDriverWait;
+import static org.testng.Assert.assertEquals;
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
