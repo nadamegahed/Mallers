@@ -17,7 +17,7 @@ public class loginTest extends TestBase {
  {
 	LoginPage loginAdmin =new LoginPage(driver);
 	driver.navigate().refresh();
-        String 	MallersUrl=driver.getCurrentUrl();
+         String  MallersUrl=driver.getCurrentUrl();
 	 Assert.assertEquals("https://mallers-dashboard-staging.ibtikar.sa/login", MallersUrl);
 
 
