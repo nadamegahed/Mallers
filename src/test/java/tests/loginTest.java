@@ -13,7 +13,7 @@ public class loginTest extends TestBase {
 	   openChrome("https://mallers-dashboard-staging.ibtikar.sa/login"); 
    }
 @Test	
-  void validlogin() 
+ public void validlogin() 
  {
 	LoginPage loginAdmin =new LoginPage(driver);
 	driver.navigate().refresh();
